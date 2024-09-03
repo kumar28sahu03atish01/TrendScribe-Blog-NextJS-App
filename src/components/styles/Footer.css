@@ -1,0 +1,74 @@
+/* Ensure the page takes up at least the full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flexbox container to hold content and footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body is at least as tall as the viewport */
+}
+
+/* Content will fill available space */
+#content {
+    flex: 1;
+}
+.FOOTER_DIV{
+    background-color: rgb(60, 150, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.FOOTER_DIV_TSD{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.FOOTER_DIV_TSD_P{
+    text-align: center;
+    text-wrap: pretty;
+    word-wrap: break-word;
+    font-size: 24px;
+    color: white;
+}
+.FOOTER_DIV_TSD_CR{
+    text-align: center;
+    text-wrap: nowrap;
+    color: white;
+}
+.FOOTER_DIV_ICON{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .FOOTER_DIV{
+        flex-direction: column;
+        height: 250px;
+    }
+    .FOOTER_DIV_TSD{
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .FOOTER_DIV_ICON{
+        width: 60%;
+        justify-content: space-evenly;
+        margin: 0px;
+    }
+}

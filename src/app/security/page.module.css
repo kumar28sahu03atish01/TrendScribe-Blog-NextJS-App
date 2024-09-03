@@ -1,0 +1,70 @@
+.DIV_SEC_H1{
+    background-color: rgb(60, 150, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.DIV_SEC_H1_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px;
+}
+.DIV_SEC_PP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 20px;
+}
+.DIV_SEC_PP_P1{
+    font-size: 20px;
+    color: rgb(60, 150, 60);
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.DIV_SEC_PP_P2{
+    font-size: 18px;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+.DIV_FRM_SEC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.DIV_FRM_SEC_IP1{
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+}
+.DIV_FRM_SEC_IP2{
+    border: none;
+    outline: none;
+    background: none;
+    width: 265px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(60, 150, 60);
+    cursor: pointer;
+}

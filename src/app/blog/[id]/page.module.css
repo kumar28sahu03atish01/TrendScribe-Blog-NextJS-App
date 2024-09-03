@@ -1,0 +1,153 @@
+.BLOG_POST_H1_DIV{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 150, 60);
+}
+.BLOG_POST_H1_DIV_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.BLOG_POST_BOX_DIV{
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.BLOG_POST_BOX_DIV_IMG_D{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.BLOG_POST_BOX_DIV_IMG_D_IMG{
+    width: 800px;
+    height: 500px; 
+    object-fit: fill;
+}
+.BLOG_POST_BOX_DIV_H1_H4_D{
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BLOG_POST_BOX_DIV_H1_H4_D_H1{
+    /* border: 1px solid blue; */
+    width: 70%;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.BLOG_POST_BOX_DIV_H1_H4_D_H4{
+    /* border: 1px solid blue; */
+    width: 20%;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.BLOG_POST_BOX_DIV_IMG_NM_D{
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.BLOG_POST_BOX_DIV_IMG_I{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: fill;
+    border: 2px solid rgb(60, 150, 60);
+    margin: 20px;
+}
+.BLOG_POST_BOX_DIV_NM_N{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.BLOG_POST_BOX_DIV_NM_DT{
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.BACK_BTN_DIV{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.BACK_BTN_LNK{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(60, 150, 60);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customP, .customLI{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+.customH3, .customH2, .customH1{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px){
+    .BLOG_POST_BOX_DIV_IMG_D_IMG{
+        width: 600px;
+        height: 300px; 
+        object-fit: 'fill';
+    }
+    .BLOG_POST_BOX_DIV_H1_H4_D_H1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .BLOG_POST_BOX_DIV_H1_H4_D_H4{
+        width: 100%;
+    }
+    .BLOG_POST_BOX_DIV_H1_H4_D{
+        justify-content: flex-start;
+        align-items: start;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px){
+    .BLOG_POST_BOX_DIV_IMG_D_IMG{
+        width: 400px;
+        height: 200px; 
+        object-fit: 'fill';
+    }
+    .BLOG_POST_BOX_DIV_IMG_I, .BLOG_POST_BOX_DIV_NM_N, .BLOG_POST_BOX_DIV_NM_DT{
+        margin: 7px;
+    }
+}
+@media screen and (max-width: 375px){
+    .BLOG_POST_BOX_DIV_IMG_D_IMG{
+        width: 350px;
+        height: 150px; 
+        object-fit: 'fill';
+    }
+    .BLOG_POST_BOX_DIV_NM_N, .BLOG_POST_BOX_DIV_NM_DT{
+        font-size: 15px;
+    }
+}

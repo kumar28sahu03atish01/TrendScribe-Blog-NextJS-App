@@ -1,0 +1,70 @@
+.BLOG_POST_LISTS{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.BLOG_POST_LISTS_DIV{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.BLOG_POST_LISTS_DIV_POST{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 220px; 
+}
+.BLOG_LISTS_BLOG_POST_IMG{
+    width: 220px; 
+    height: 220px; 
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.BLOG_LISTS_BLOG_POST_PPP{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-weight: 500;
+    margin: 10px;
+}
+.BLOG_LISTS_BLOG_POST_BTN{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 13px;
+    font-size: 500;
+    text-align: center;
+    background-color: rgb(60, 150, 60);
+}
+
+@media screen and (max-width: 1024px){
+    .BLOG_POST_LISTS{
+        grid-template-columns: repeat(3, 1fr);
+    }  
+}
+@media screen and (max-width: 768px){
+    .BLOG_POST_LISTS{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+@media screen and (max-width: 500px){
+    .BLOG_POST_LISTS_DIV{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .BLOG_POST_LISTS{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
