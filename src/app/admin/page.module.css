@@ -61,6 +61,7 @@
     justify-content: center;
     width: 40%;
     margin: 10px;
+    border: 1px solid black;
 }
 .ADMIN_DIV_FORM_FRM_DIV_C{
     display: flex;
@@ -80,6 +81,7 @@
 }
 .ADMIN_DIV_FORM_FRM_DIV_IP{
     height: 24px;
+    width: 98.5%;
     padding-left: 5px;
     outline: none;
     border: none;
